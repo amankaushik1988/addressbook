@@ -18,10 +18,6 @@
         <github.account>puneetbhatia77</github.account>
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>addressbook</jelastic.context>
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
-        <sonar.login>sqp_98d33aad67299bd60615170286eeeaed6906ec80</sonar.login>
-        <sonar.language>java</sonar.language>
-        <sonar.scm.provider>git</sonar.scm.provider>
         </properties>
     
     <scm>
