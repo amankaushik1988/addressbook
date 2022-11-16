@@ -23,11 +23,7 @@
         <sonar.language>java</sonar.language>
         <sonar.scm.provider>git</sonar.scm.provider>
         </properties>
-  <plugin>
-  <groupId>org.sonarsource.scanner.maven</groupId>
-  <artifactId>sonar-maven-plugin</artifactId>
-  <version>3.2</version>
-  </plugin>
+    
     <scm>
             <connection>scm:https://github.com/puneetbhatia77/addressbook.git</connection>
             <developerConnection>scm:https://github.com/puneetbhatia77/addressbook.git</developerConnection>
