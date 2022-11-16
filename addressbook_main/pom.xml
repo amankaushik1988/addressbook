@@ -401,6 +401,19 @@
                             <failurePriority>2</failurePriority>
                         </configuration>
                     </plugin>
+		   <!-- Jacoco -->
+	            <plugin>
+                        <groupId>org.jacoco</groupId>
+                        <artifactId>jacoco-maven-plugin</artifactId>
+                        <reportSets>
+                        <reportSet>
+                        <reports>
+                        <!-- select non-aggregate reports -->
+                        <report>report</report>
+                        </reports>
+                        </reportSet>
+                        </reportSets>
+                   </plugin>
                     <!-- Sonar -->
 		    <plugin>
                         <groupId>org.sonarsource.scanner.maven</groupId>
