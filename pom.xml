@@ -19,7 +19,17 @@
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>addressbook</jelastic.context>
     </properties>
-
+    <properties>
+  <sonar.host.url>http://localhost:9000</sonar.host.url>
+  <sonar.login>sqp_98d33aad67299bd60615170286eeeaed6906ec80</sonar.login>
+  <sonar.language>java</sonar.language>
+  <sonar.scm.provider>git</sonar.scm.provider>
+  </properties>
+  <plugin>
+  <groupId>org.sonarsource.scanner.maven</groupId>
+  <artifactId>sonar-maven-plugin</artifactId>
+  <version>3.2</version>
+  </plugin>
     <scm>
             <connection>scm:https://github.com/puneetbhatia77/addressbook.git</connection>
             <developerConnection>scm:https://github.com/puneetbhatia77/addressbook.git</developerConnection>
